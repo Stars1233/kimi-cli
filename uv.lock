@@ -851,7 +851,7 @@ requires-dist = [
     { name = "aiohttp", specifier = "==3.13.2" },
     { name = "fastmcp", specifier = "==2.12.5" },
     { name = "httpx", extras = ["socks"], specifier = "==0.28.1" },
-    { name = "kosong", specifier = "==0.22.0" },
+    { name = "kosong", specifier = "==0.23.0" },
     { name = "loguru", specifier = "==0.7.3" },
     { name = "patch-ng", specifier = "==1.19.0" },
     { name = "pillow", specifier = "==12.0.0" },
@@ -871,14 +871,14 @@ dev = [
     { name = "inline-snapshot", extras = ["black"], specifier = ">=0.31.1" },
     { name = "pyinstaller", specifier = ">=6.16.0" },
     { name = "pyright", specifier = ">=1.1.407" },
-    { name = "pytest", specifier = ">=8.4.2" },
-    { name = "pytest-asyncio", specifier = ">=1.2.0" },
+    { name = "pytest", specifier = ">=9.0.0" },
+    { name = "pytest-asyncio", specifier = ">=1.3.0" },
     { name = "ruff", specifier = ">=0.14.4" },
 ]
 
 [[package]]
 name = "kosong"
-version = "0.22.0"
+version = "0.23.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anthropic" },
@@ -888,9 +888,9 @@ dependencies = [
     { name = "pydantic" },
     { name = "python-dotenv" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d0/4e/83e6a6b6982747602dddfbb6be9a238ff8f0575d08ae7d35f0d3bb837e22/kosong-0.22.0.tar.gz", hash = "sha256:bc78334338e216379c8f7980ecbc87f68d8175b32a2b963ff367dfa0ecb274be", size = 23675, upload-time = "2025-11-10T08:33:59.021Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/53/0f/8ddd7282545b056b233902ea6b2796f3f64afb1abc21e235dded36d220a9/kosong-0.23.0.tar.gz", hash = "sha256:9006096b18f13ab79e938fe38c95f3d3c90031814cc8edf6ff43e6a9918a3b20", size = 23688, upload-time = "2025-11-10T14:03:39.655Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/29/5a/80c297bc7388431d1f894a6d17045349ac674e877c6f59115540136985ce/kosong-0.22.0-py3-none-any.whl", hash = "sha256:7ec642d32b4cbed58b53ad273dc16e6188ce483b8f259080bf6eb76a3338037d", size = 36891, upload-time = "2025-11-10T08:33:58.038Z" },
+    { url = "https://files.pythonhosted.org/packages/9f/da/94d8375d54a621818e4565e6cfdf323d33cde3e733cc9f0b248f05f9ddc4/kosong-0.23.0-py3-none-any.whl", hash = "sha256:e8a4689489f7de107332d96584b73119a3d038e6d9ec80354f90b4b26883d765", size = 36906, upload-time = "2025-11-10T14:03:38.726Z" },
 ]
 
 [[package]]
@@ -1647,7 +1647,7 @@ wheels = [
 
 [[package]]
 name = "pytest"
-version = "8.4.2"
+version = "9.0.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "colorama", marker = "sys_platform == 'win32'" },
@@ -1656,21 +1656,21 @@ dependencies = [
     { name = "pluggy" },
     { name = "pygments" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a3/5c/00a0e072241553e1a7496d638deababa67c5058571567b92a7eaa258397c/pytest-8.4.2.tar.gz", hash = "sha256:86c0d0b93306b961d58d62a4db4879f27fe25513d4b969df351abdddb3c30e01", size = 1519618, upload-time = "2025-09-04T14:34:22.711Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/da/1d/eb34f286b164c5e431a810a38697409cca1112cee04b287bb56ac486730b/pytest-9.0.0.tar.gz", hash = "sha256:8f44522eafe4137b0f35c9ce3072931a788a21ee40a2ed279e817d3cc16ed21e", size = 1562764, upload-time = "2025-11-08T17:25:33.34Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a8/a4/20da314d277121d6534b3a980b29035dcd51e6744bd79075a6ce8fa4eb8d/pytest-8.4.2-py3-none-any.whl", hash = "sha256:872f880de3fc3a5bdc88a11b39c9710c3497a547cfa9320bc3c5e62fbf272e79", size = 365750, upload-time = "2025-09-04T14:34:20.226Z" },
+    { url = "https://files.pythonhosted.org/packages/72/99/cafef234114a3b6d9f3aaed0723b437c40c57bdb7b3e4c3a575bc4890052/pytest-9.0.0-py3-none-any.whl", hash = "sha256:e5ccdf10b0bac554970ee88fc1a4ad0ee5d221f8ef22321f9b7e4584e19d7f96", size = 373364, upload-time = "2025-11-08T17:25:31.811Z" },
 ]
 
 [[package]]
 name = "pytest-asyncio"
-version = "1.2.0"
+version = "1.3.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pytest" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/42/86/9e3c5f48f7b7b638b216e4b9e645f54d199d7abbbab7a64a13b4e12ba10f/pytest_asyncio-1.2.0.tar.gz", hash = "sha256:c609a64a2a8768462d0c99811ddb8bd2583c33fd33cf7f21af1c142e824ffb57", size = 50119, upload-time = "2025-09-12T07:33:53.816Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/90/2c/8af215c0f776415f3590cac4f9086ccefd6fd463befeae41cd4d3f193e5a/pytest_asyncio-1.3.0.tar.gz", hash = "sha256:d7f52f36d231b80ee124cd216ffb19369aa168fc10095013c6b014a34d3ee9e5", size = 50087, upload-time = "2025-11-10T16:07:47.256Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/04/93/2fa34714b7a4ae72f2f8dad66ba17dd9a2c793220719e736dda28b7aec27/pytest_asyncio-1.2.0-py3-none-any.whl", hash = "sha256:8e17ae5e46d8e7efe51ab6494dd2010f4ca8dae51652aa3c8d55acf50bfb2e99", size = 15095, upload-time = "2025-09-12T07:33:52.639Z" },
+    { url = "https://files.pythonhosted.org/packages/e5/35/f8b19922b6a25bc0880171a2f1a003eaeb93657475193ab516fd87cac9da/pytest_asyncio-1.3.0-py3-none-any.whl", hash = "sha256:611e26147c7f77640e6d0a92a38ed17c3e9848063698d5c93d5aa7aa11cebff5", size = 15075, upload-time = "2025-11-10T16:07:45.537Z" },
 ]
 
 [[package]]

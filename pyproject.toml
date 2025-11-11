@@ -9,7 +9,7 @@ dependencies = [
     "aiofiles==25.1.0",
     "aiohttp==3.13.2",
     "typer==0.20.0",
-    "kosong==0.22.0",
+    "kosong==0.23.0",
     "loguru==0.7.3",
     "patch-ng==1.19.0",
     "prompt-toolkit==3.0.52",
@@ -30,8 +30,8 @@ dev = [
     "inline-snapshot[black]>=0.31.1",
     "pyinstaller>=6.16.0",
     "pyright>=1.1.407",
-    "pytest>=8.4.2",
-    "pytest-asyncio>=1.2.0",
+    "pytest>=9.0.0",
+    "pytest-asyncio>=1.3.0",
     "ruff>=0.14.4",
 ]
 
